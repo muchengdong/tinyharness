@@ -1,1 +1,1 @@
-# tinyharness
+![测试图片](./test_image.png)

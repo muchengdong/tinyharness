@@ -1,0 +1,29 @@
+<svg class="h-12 w-auto" viewBox="0 0 512 92" role="img" aria-label="Cosmic Cube" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="cosmic-cube-mark-gradient" x1="32" y1="64" x2="84" y2="22" gradientUnits="userSpaceOnUse">
+            <stop stop-color="var(--cosmic-cube-logo-gradient-start, #22d3ee)"></stop>
+            <stop offset="1" stop-color="var(--cosmic-cube-logo-gradient-end, #6d28d9)"></stop>
+        </linearGradient>
+    </defs>
+
+    <!-- cube mark -->
+    <g>
+        <polygon points="58,22 84,36 58,50 32,36" fill="url(#cosmic-cube-mark-gradient)" fill-opacity="1"></polygon>
+        <polygon points="32,36 58,50 58,64 32,50" fill="url(#cosmic-cube-mark-gradient)" fill-opacity="0.72"></polygon>
+        <polygon points="58,50 84,36 84,50 58,64" fill="url(#cosmic-cube-mark-gradient)" fill-opacity="0.5"></polygon>
+    </g>
+
+    <!-- Cosmic Cube wordmark -->
+    <g fill="none" stroke="var(--cosmic-cube-logo-text, #312e81)" stroke-width="10" stroke-linecap="square" stroke-linejoin="square">
+        <path d="M 131 35.1 A 17 17 0 1 0 131 56.9"></path>
+        <path d="M 160 29 A 17 17 0 1 1 160 63 A 17 17 0 1 1 160 29 Z"></path>
+        <path d="M 206 29 C 206 23 194 23 191 30 C 188 37 190 44 194 48 C 200 51 206 52 206 58 C 206 63 194 64 191 61"></path>
+        <path d="M 220 63 L 220 29 C 220 23 234 23 234 29 L 234 63 M 234 29 C 234 23 248 23 248 29 L 248 63"></path>
+        <path d="M 262 63 L 262 29 M 262 16 h 0.1"></path>
+        <path d="M 305 35.1 A 17 17 0 1 0 305 56.9"></path>
+        <path d="M 357 35.1 A 17 17 0 1 0 357 56.9"></path>
+        <path d="M 372 29 L 372 57 C 372 66 392 66 392 57 L 392 29"></path>
+        <path d="M 406 9 L 406 63 M 421 29 A 17 17 0 1 1 421 63 A 17 17 0 1 1 421 29 Z"></path>
+        <path d="M 479 35.1 A 17 17 0 1 0 479 56.9 M 450 46 L 474 46"></path>
+    </g>
+</svg>
